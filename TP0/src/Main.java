@@ -16,15 +16,15 @@ public class Main {
 
     public static void main(String args[]) {
         Client c = new Client.ClientBuilder("C2")
-                .nom("fares")
-                .prenom("pascal")
-                .rue("Zkak")
-                .code("0324")
-                .etat("Bey")
-                .ville("Beyrouth")
+                .nom("Kassouf")
+                .prenom("Youssef")
+                .rue("Rassieh")
+                .code("0")
+                .etat("")
+                .ville("Zahle")
                 .pays("Liban")
-                .telephone("01840161")
-                .mail("pf@isae.edu.lb")
+                .telephone("00000000")
+                .mail("youssef.kassouf@isae.edu.lb")
                 .build();
         System.out.printf("%s", c);
         Clients.insert(c);
